@@ -128,9 +128,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 # RenderScript
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
-# SDClang
-SDCLANG := true
-
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 
